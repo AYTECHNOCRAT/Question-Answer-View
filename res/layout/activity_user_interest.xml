@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#333333"
+        android:id="@+id/l1"/>
+
+
+   <ListView
+   android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3.7"
+    android:background="#8000a0"
+    android:id="@+id/l2"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#323232"
+        android:layout_weight="0.5"
+        android:id="@+id/b1"
+        android:text="Submit"/>
+</LinearLayout>
